@@ -2,60 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T09:10:54 IST" name="Suite" finished-at="2024-01-25T09:10:54 IST" duration-ms="110">
+  <suite started-at="2024-01-26T09:32:28 IST" name="Default suite" finished-at="2024-01-26T09:32:36 IST" duration-ms="8366">
     <groups>
     </groups>
-    <test started-at="2024-01-25T09:10:54 IST" name="Test" finished-at="2024-01-25T09:10:54 IST" duration-ms="110">
-      <class name="seleniumPro.TestThree">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="BeforeSuite" finished-at="2024-01-25T09:10:54 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-01-26T09:32:28 IST" name="Default test" finished-at="2024-01-26T09:32:36 IST" duration-ms="8366">
+      <class name="seleniumPro.TestFive">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:seleniumPro.TestFive@54a7079e]" started-at="2024-01-26T09:32:28 IST" name="OpenBrowser" finished-at="2024-01-26T09:32:32 IST" duration-ms="4721" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="beforeTest" finished-at="2024-01-25T09:10:54 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyCurrentUrl()[pri:0, instance:seleniumPro.TestFive@54a7079e]" started-at="2024-01-26T09:32:32 IST" name="VerifyCurrentUrl" finished-at="2024-01-26T09:32:32 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beoforeClasse()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="beoforeClasse" finished-at="2024-01-25T09:10:54 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- VerifyCurrentUrl -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:seleniumPro.TestFive@54a7079e]" started-at="2024-01-26T09:32:32 IST" name="CloseBrowser" finished-at="2024-01-26T09:32:33 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beoforeClasse -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="BeforeMethod" finished-at="2024-01-25T09:10:54 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:seleniumPro.TestFive@54a7079e]" started-at="2024-01-26T09:32:33 IST" name="OpenBrowser" finished-at="2024-01-26T09:32:36 IST" duration-ms="3124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method signature="TestSeven()[pri:1, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="TestSeven" finished-at="2024-01-25T09:10:54 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyTitle()[pri:0, instance:seleniumPro.TestFive@54a7079e]" started-at="2024-01-26T09:32:36 IST" name="VerifyTitle" finished-at="2024-01-26T09:32:36 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSeven -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="AfterMethod" finished-at="2024-01-25T09:10:54 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- VerifyTitle -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:seleniumPro.TestFive@54a7079e]" started-at="2024-01-26T09:32:36 IST" name="CloseBrowser" finished-at="2024-01-26T09:32:36 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method signature="TestEight()[pri:2, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="TestEight" finished-at="2024-01-25T09:10:54 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestEight -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="BeforeMethod" finished-at="2024-01-25T09:10:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="AfterMethod" finished-at="2024-01-25T09:10:54 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="afterClasse()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="afterClasse" finished-at="2024-01-25T09:10:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClasse -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="afterTest" finished-at="2024-01-25T09:10:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:seleniumPro.TestThree@60099951]" started-at="2024-01-25T09:10:54 IST" name="afterSuite" finished-at="2024-01-25T09:10:54 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- seleniumPro.TestThree -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- seleniumPro.TestFive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
