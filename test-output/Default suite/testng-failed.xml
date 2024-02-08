@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumPro.TestTwleve">
+      <class name="seleniumPro.seleniumThirteen">
         <methods>
-          <include name="testSoftAssertion"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- seleniumPro.TestTwleve -->
+      </class> <!-- seleniumPro.seleniumThirteen -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
