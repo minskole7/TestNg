@@ -1,25 +1,26 @@
 package seleniumPro;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestTen {
-
-	@Test(groups = {"regression"})
+public class Test16 {
+	
+	@Test()
 	public static void TestNine() {
 		System.out.println("Test case Nine");
+		Assert.assertTrue(true);
 	}
 	
-	@Test(groups = "login")
+	@Test()
 	public static void TestCTen() {
 		System.out.println("Test case Ten");
-	}
-	
-	
-	@Test(groups = {"login","regression"})
-	public static void TestCEleven() {
-		System.out.println("Test case Eleven");
+		Assert.assertEquals(false, true);
 	}
 	
 	
 	
+	
+	
+	
+
 }
